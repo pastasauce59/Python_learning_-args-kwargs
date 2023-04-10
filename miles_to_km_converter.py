@@ -6,7 +6,7 @@ window.minsize(width=200, height=100)
 window.config(padx=50, pady=50)
 
 def calculation():
-    miles = int(starting_entry.get())
+    miles = float(starting_entry.get())
     km = miles * 1.609344
     conversion_num.config(text=km)
 
